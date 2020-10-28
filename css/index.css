@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    color: #ffffff;
+    height: 15%;
+    background-color: #04D98B;
+    text-align: center;
+}
+
+h1{
+    padding-top:15px ;
+    font-size: 36px;
+}
+
+a[href="pesquisas.html"]{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+}
+
+main{
+    height: 69%;
+}
+
+main form{
+    border-radius: 1%;
+    margin: 30px auto;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #04D98B;
+}
+
+.f-login h2{
+    margin: auto;    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    align-items: center;
+    background-color: #63E193;
+    width: 400px;
+    height: 350px;
+}
+
+form .f-login{
+    margin-top:15px ;
+    width: 500px;
+    background-color: #ffffff;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.l-nome{
+    margin: 40px auto;
+    text-align: center;
+
+}
+.l-nome label, .l-senha label{
+    padding-bottom:10px ;
+}
+
+.l-nome input, .l-senha input{
+    width: 170px;
+    height: 24px;
+    border-style: none;
+    outline-color: #04D98B;
+}
+
+.l-senha{
+    text-align: center;
+}
+
+button{
+    margin: 30px auto;
+    font-size: 20px;
+    color: #04D98B;
+    outline-color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-weight: bolder;
+    width: 100px;
+    height: 42px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    height: 15%;
+    background-color: #04D98B;
+}
+
+footer h1{
+    font-size: 36px;
+    margin: 10px;
+}
+
+footer ul{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+li a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer ul li{
+    margin-top: 40px;
+    margin-left: 20px;
+    list-style: none;
+}
