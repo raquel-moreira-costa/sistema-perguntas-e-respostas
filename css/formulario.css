@@ -34,12 +34,43 @@ main{
     background-color: #84F2A9;
 }
 
-h2{
+form{
+    padding-top: 10px;
+    text-align: center;
+}
+
+form div{
+    padding: 10px;
+}
+
+.pesq label{
+    padding-right: 10px;
     font-size: 20px;
-    margin-top: 10px;
+    color: #ffffff;
+}
+
+.pesq input{
+    font-size: 14px;
+    width: 260px;
+    height: 26px;
+    color: #04D98B;
+    outline-color: #ffffff;
+    border: none;
+}
+::placeholder{
     text-align: center;
     color: #04D98B;
+
 }
+div h3{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+div input [id ="pergunta"]{
+
+}
+
 
 footer{
     display: flex;

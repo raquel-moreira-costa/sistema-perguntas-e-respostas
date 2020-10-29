@@ -30,6 +30,7 @@ a[href="pesquisas.html"]{
 }
 
 main{
+    background-color: #84F2A9;
     height: 70%;
 }
 
@@ -38,15 +39,17 @@ main form{
     margin: 30px auto;
 }
 
-h2{
+main h2{
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
-    color: #04D98B;
+    color: #ffffff;
 }
 
 .f-login h2{
-    margin: auto;    
+    color:#04D98B ;
+    text-align: center;
+    padding: 10px;  
 }
 
 form{
@@ -54,14 +57,14 @@ form{
     flex-direction: column;
     margin: 20px auto;
     align-items: center;
-    background-color: #63E193;
+    background-color: #04D98B;
     width: 400px;
     height: 350px;
 }
 
 form .f-login{
     margin-top:15px ;
-    width: 500px;
+    width: 400px;
     background-color: #ffffff;
 }
 form div{
@@ -72,7 +75,7 @@ form div{
 }
 
 .l-nome{
-    margin: 40px auto;
+    margin: 20px auto;
     text-align: center;
 
 }
@@ -181,7 +184,7 @@ footer ul li{
     
     h2{
         font-size: 10px;
-        padding-top: 8px;
+        margin-top: 8px;
         text-align: center;
         color: #04D98B;
     }
