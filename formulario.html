@@ -27,7 +27,6 @@
                 <h3>Respostas</h3>
                 </div>
                 <div>
-                    <input type="text" for="respostaA" placeholder="Resposta A"></input>
                     <input type="text" for="respostaA" placeholder="Resposta A" id="resposta_a" name="resposta_a"></input>
                     <label for="respostaA">
                         <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaA" name="respostaA">
@@ -47,19 +46,19 @@
                     <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaC" name="respostaC">
                 </label> 
             </div>
-
+            
             <div>
                 <input type="text" for="respostaD" placeholder="Resposta D" id="resposta_d" name="resposta_d"></input>
                 <label for="respostaD">
                     <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaD" name="respostaD">
                 </label> 
             </div>
+            <div>
+                <button name="button" onclick="criar()">CRIAR</button>
+                <p>*Marque a questão que você deseja que seja a correta</p>
+                <button name="button" onclick="criar()">ATUALIZAR</button>
+            </div>
         </form>
-        <div>
-            <button name="button" onclick="criar()">Criar</button>
-            <p>*Marque a questão que você deseja que seja a correta</p>
-        </div>
-    
     </main>
     <footer>
         <div>
