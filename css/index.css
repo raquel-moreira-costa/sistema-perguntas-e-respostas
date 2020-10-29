@@ -30,7 +30,7 @@ a[href="pesquisas.html"]{
 }
 
 main{
-    height: 69%;
+    height: 70%;
 }
 
 main form{
@@ -40,7 +40,7 @@ main form{
 
 h2{
     font-size: 20px;
-    margin-top: 10px;
+    padding-top: 10px;
     text-align: center;
     color: #04D98B;
 }
@@ -181,7 +181,7 @@ footer ul li{
     
     h2{
         font-size: 10px;
-        margin-top: 8px;
+        padding-top: 8px;
         text-align: center;
         color: #04D98B;
     }
