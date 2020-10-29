@@ -18,46 +18,41 @@
             </div>
                 <div>
                     <input type="text" id="pergunta_input" name="pergunta_input" placeholder="Digite a pergunta"></input>
-                </div>
-
-                <h3>Resposta</h3>
-
-                
+                </div>               
                 <div>
                 <h3>Respostas</h3>
                 </div>
-                <div>
+                <div class="div">
                     <input type="text" for="respostaA" placeholder="Resposta A" id="resposta_a" name="resposta_a"></input>
                     <label for="respostaA">
                         <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaA" name="respostaA">
                     </label>
-                </div>     
-
-            <div>
+                </div>
+            <div class="div">
                 <input type="text" for="respostaB" placeholder="Resposta B" id="resposta_b" name="resposta_b"></input>
                 <label for="respostaB">
                     <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaB" name="respostaB">
                 </label> 
             </div>
 
-            <div>
+            <div class="div">
                 <input type="text" for="respostaC" placeholder="Resposta C" id="resposta_c" name="resposta_c"></input>
                 <label for="respostaC">
-                    <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaC" name="respostaC">
+                    <input  onclick="SetSel(this)" class="cb" type="checkbox" id="respostaC" name="respostaC">
                 </label> 
             </div>
-            
-            <div>
+
+            <div class="div">
                 <input type="text" for="respostaD" placeholder="Resposta D" id="resposta_d" name="resposta_d"></input>
                 <label for="respostaD">
                     <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaD" name="respostaD">
                 </label> 
             </div>
-            <div>
+            <div class="botao">
                 <button name="button" onclick="criar()">CRIAR</button>
-                <p>*Marque a questão que você deseja que seja a correta</p>
-                <button name="button" onclick="criar()">ATUALIZAR</button>
+                <button name="button" ">NOVA</button>
             </div>
+            <p>*Marque a questão que você deseja que seja a correta</p>
         </form>
     </main>
     <footer>
