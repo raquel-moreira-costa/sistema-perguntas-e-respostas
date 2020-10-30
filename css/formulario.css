@@ -32,6 +32,9 @@ a[href="pesquisas.html"]{
 main{
     height: 70%;
     background-color: #84F2A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 form{
