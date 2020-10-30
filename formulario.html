@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/formulario.css">
-    <title>Página de Cadastro</title>
+    <title>Cadastro</title>
 </head>
 <body>
     <header>
@@ -15,63 +15,61 @@
         <form action="" method="get"> 
             <div>
                 <h3>Questão</h3>
+            </div>
                 <div>
                     <input type="text" id="pergunta_input" name="pergunta_input" placeholder="Digite a pergunta"></input>
-                </div>
-
-                <h3>Resposta</h3>
-
-                
+                </div>               
                 <div>
+                <h3>Respostas</h3>
+                </div>
+                <div class="div">
                     <input type="text" for="respostaA" placeholder="Resposta A" id="resposta_a" name="resposta_a"></input>
                     <label for="respostaA">
                         <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaA" name="respostaA">
                     </label>
-                </div>     
-            </div>
-            <div>
+                </div>
+            <div class="div">
                 <input type="text" for="respostaB" placeholder="Resposta B" id="resposta_b" name="resposta_b"></input>
                 <label for="respostaB">
                     <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaB" name="respostaB">
                 </label> 
             </div>
 
-            <div>
+            <div class="div">
                 <input type="text" for="respostaC" placeholder="Resposta C" id="resposta_c" name="resposta_c"></input>
                 <label for="respostaC">
-                    <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaC" name="respostaC">
+                    <input  onclick="SetSel(this)" class="cb" type="checkbox" id="respostaC" name="respostaC">
                 </label> 
             </div>
 
-            <div>
+            <div class="div">
                 <input type="text" for="respostaD" placeholder="Resposta D" id="resposta_d" name="resposta_d"></input>
                 <label for="respostaD">
                     <input onclick="SetSel(this)" class="cb" type="checkbox" id="respostaD" name="respostaD">
                 </label> 
             </div>
-        </form>
-
-        <div>
-            <button name="button" onclick="criar()">Criar</button>
+            <div class="botao">
+                <button name="button" onclick="criar()">CRIAR</button>
+                <button name="button" ">NOVA</button>
+            </div>
             <p>*Marque a questão que você deseja que seja a correta</p>
-        </div>
-    
+        </form>
     </main>
     <footer>
         <div>
             <h1>
-                INTEGRANTES
+                INTEGRANTES:
             </h1>
         </div>
         <div>
             <ul>
-                <li>JUAN VICTOR</li>
-                <li>LEONARDO RODRIGUES</li>
-                <li>FELIPE BRAGA</li>
-                <li>JULIA AGATHA</li>
-                <li>CAIO DANIEL</li>
-                <li>VICTOR VICENTE</li>
-                <li>RAQUEL MOREIRA</li>
+            <li><a href="https://github.com/JuanVAF">JUAN VICTOR</a></li>
+            <li><a href="https://github.com/leoorodr">LEONARDO RODRIGUES</a></li>
+            <li><a href="https://github.com/obragaa">FELIPE BRAGA</a></li>
+            <li><a href="https://github.com/agatha-juh">JULIA AGATHA</a></li>
+            <li><a href="https://github.com/caiodanielp">CAIO DANIEL</a></li>
+            <li><a href="https://github.com/Vicente1507">VICTOR VICENTE</a></li>
+            <li><a href="https://github.com/RachMor">RAQUEL MOREIRA</a></li>
             </ul>
         </div>
     </footer>

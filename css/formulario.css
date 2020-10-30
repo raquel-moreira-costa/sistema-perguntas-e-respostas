@@ -32,14 +32,97 @@ a[href="pesquisas.html"]{
 main{
     height: 70%;
     background-color: #84F2A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h2{
+form{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+div h3{
+    padding: 10px;
     font-size: 20px;
-    margin-top: 10px;
+    color: #ffffff;
+}
+
+div #pergunta_input{
+    width: 250px;
+    height: 80px;
+    border: none;
+    font-size: 14px;
+    color: #04d98b;
+    outline-color:#84F2A9 ;
+}
+
+#resposta_a, #resposta_b, #resposta_c, #resposta_d{
+    width: 200px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    color: #04d98b;
+    outline-color:#84F2A9 ;
+}
+
+.div{
+    margin: 0 0 0 15px;
+}
+div label{
+    display: inline-block;
+    margin: 5px auto;
+
+}
+
+form p{
+    color: #ffffff;
+    font-size: 14px;
+}
+label{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    left: -10px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+
+::placeholder{
     text-align: center;
     color: #04D98B;
+
 }
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 70px;
+
+}
+
+div button{
+    margin: 20px auto;
+    font-size: 20px;
+    color: #ffffff;
+    outline-color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04D98B;
+    font-weight: bolder;
+    width: 100px;
+    height: 42px;
+}
+
 
 footer{
     display: flex;
