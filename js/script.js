@@ -1,14 +1,3 @@
-//Método GET
-
-let url = 'https://api.sheety.co/c6b8a44bdd3e942f91045f9aed02cd8c/formularioApi/perguntas';
-fetch(url, {
-	method: "GET"
-})
-.then(response => response.json())
-.then(json => {
-	console.log(json);
-});
-
 //Garantindo que não haverá mais do que um checkbox selecionado ao mesmo tempo
 
 function SetSel(elem)
@@ -70,7 +59,7 @@ function criar() {
     const body = {
         
         pergunta:{
-            "pergunta": input_pergunta,
+            "perguntas": input_pergunta,
             "a": input_resposta_a,
             "b": input_resposta_b,
             "c": input_resposta_c,
@@ -83,7 +72,7 @@ function criar() {
 
     //Método POST
 
-    fetch('https://api.sheety.co/c6b8a44bdd3e942f91045f9aed02cd8c/formularioApi/perguntas', {
+    fetch('https://api.sheety.co/f08f23a0d16453456d974293ec3a9f2c/formularioApi/perguntas', {
         method: 'POST',
         headers:{
         'Content-Type': 'application/json',
